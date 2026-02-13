@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be My Valentine ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    }
+    .card {
+      background: white;
+      padding: 30px 20px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 360px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #ff4d6d;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    button {
+      border: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .yes-button {
+      background: #ff4d6d;
+      color: white;
+      font-weight: bold;
+    }
+    .no-button {
+      background: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Will you be my Valentine? 💖</h1>
+    <div class="buttons">
+      <button class="yes-button" onclick="handleYesClick()">Yes</button>
+      <button class="no-button" onclick="handleNoClick()">Really sure?</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
